@@ -26,6 +26,16 @@ public class VariableApp {
         System.out.println(message);
 
         // step 2
+        int numberDays = 7;
+        double priceCoffee = 4.99;
+        char favoriteLetter = 'B';
+        boolean isRaining = false;
+
+        System.out.printf("Number of days in a week: %d.%n", numberDays);
+        System.out.printf("How much does this coffee cost? %.2f.%n", priceCoffee);
+        System.out.printf("My favorite letter is %c.%n", favoriteLetter);
+        System.out.printf("Is it raining today? %b", isRaining);
+
 
 
     }
